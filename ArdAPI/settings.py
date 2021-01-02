@@ -26,7 +26,7 @@ SECRET_KEY = '*-9^32u+(t!n*ct9)jqg87g%#5w280_rx+*h=ef+y$953dwc=&'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['ardu-api.herokuapp.com']
 
 
 # Application definition
