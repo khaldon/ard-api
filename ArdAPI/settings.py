@@ -55,6 +55,15 @@ MIDDLEWARE = [
 
 ROOT_URLCONF = 'ArdAPI.urls'
 
+REST_FRAMEWORK = {
+    # other settings...
+
+    'DEFAULT_AUTHENTICATION_CLASSES': [],
+    'DEFAULT_PERMISSION_CLASSES': [
+           'rest_framework.permissions.AllowAny',
+    ],
+}
+
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
